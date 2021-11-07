@@ -3,15 +3,6 @@
     100% {opacity:1;}
 }
 
-@keyframes body {
-    0% {
-        top: -20px;
-    }
-    100% {
-        top: 0px;
-    }
-}
-
 @keyframes movewelcome {
     0% {
         left: -400px;
@@ -69,11 +60,15 @@ body {
 header {
     overflow : hidden ;
     align-content: center;
-    border-style: ridge;
+    border-style: solid;
     background-image: url(officehome.jpg);
     height: 400px;
     display: flex;
     justify-content: space-between;
+
+}
+
+header {
 
 }
 
